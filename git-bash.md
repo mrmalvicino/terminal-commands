@@ -1,5 +1,7 @@
 # Git Bash
 
+- [Descargar Git](https://git-scm.com/)
+
 ## Crear repositorio
 
 1. Inicializar Git en una carpeta:
@@ -8,16 +10,18 @@
 git init
 ```
 
-2. Definir nombre de usuario y mail:
+:warning: **El siguiente paso es solo si se está creando un repositorio desde una terminal por primera vez.**
+
+2. (*Opcional*) Definir nombre de usuario y mail:
 
 ```
 git config --global user.name "username"
 git config --global user.email mail@gmail.com
 ```
 
-:warning: **En caso de todavía no haberlo hecho, crear dentro de la carpeta los directorios y archivos necesarios para comenzar a escribir código, antes de ejecutar el siguiente comando.**
+:warning: **En caso de todavía no haberlo hecho, crear dentro de la carpeta los directorios y archivos necesarios para comenzar a escribir código, antes del siguiente paso.**
 
-3. Agregar código y hacer un primer commit:
+1. Agregar código y hacer un primer commit:
 
 ```
 git add .
@@ -31,7 +35,7 @@ git remote add origin www.github.com/user/new-repo.git
 git push -u origin main
 ```
 
-:warning: **Luego de ejecutar los comandos anteriores, debería abrirse una interfaz de inicio de sesión para vincular la cuenta de Github. El repositorio comenzará a subirse a continuación.**
+:warning: **Si se está creando un repositorio desde una terminal por primera vez, luego del paso anterior debería abrirse una interfaz de inicio de sesión para vincular la cuenta de Github. El repositorio comenzará a subirse a continuación.**
 
 ## Consultas
 
@@ -74,6 +78,8 @@ git push -u origin main
 ```
 
 ## Git LFS (Large Files Storage)
+
+- [Descargar Git LFS](https://git-lfs.github.com/)
 
 Usar Git LFS en el repositorio:
 

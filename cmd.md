@@ -2,7 +2,7 @@
 
 ## Atajos del teclado
 
-Frenar una ejecución:
+- Frenar una ejecución:
 
 ```
 ctrl + c
@@ -10,19 +10,19 @@ ctrl + c
 
 ## Comandos generales
 
-Limpiar las líneas de la terminal:
+- Limpiar las líneas de la terminal:
 
 ```
 Clear
 ```
 
-Mostrar un detalle de los archivos que hay en el directorio:
+- Mostrar un detalle de los archivos que hay en el directorio:
 
 ```
 dir
 ```
 
-Mostrar una lista de los archivos que hay en el directorio:
+- Mostrar una lista de los archivos que hay en el directorio:
 
 ```
 ls
@@ -30,13 +30,13 @@ ls
 
 ## Navegar en directorios
 
-Ir hacia un orden de jerarquía anterior:
+- Ir hacia un orden de jerarquía anterior:
 
 ```
 cd ..
 ```
 
-Ir a un directorio específico:
+- Ir a un directorio específico:
 
 ```
 cd desktop
@@ -44,25 +44,25 @@ cd desktop
 
 ## Crear y borrar directorios
 
-Crear una carpeta que se llame "myfolder":
+- Crear una carpeta que se llame "myfolder":
 
 ```
 mk dir myfolder
 ```
 
-Borrar la carpeta "myfolder":
+- Borrar la carpeta "myfolder":
 
 ```
 rmdir /s myfolder
 ```
 
-Crear archivo .txt que se llame "myfile":
+- Crear archivo .txt que se llame "myfile":
 
 ```
 type nul > myfile.txt
 ```
 
-Borrar el archivo "myfile.txt":
+- Borrar el archivo "myfile.txt":
 
 ```
 del myfile.txt
