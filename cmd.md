@@ -13,7 +13,7 @@ ctrl + c
 - Limpiar las líneas de la terminal:
 
 ```
-Clear
+clear
 ```
 
 - Mostrar un detalle de los archivos que hay en el directorio:

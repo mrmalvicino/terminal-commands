@@ -10,7 +10,7 @@
 git init
 ```
 
-:warning: **El siguiente paso es solo si se está creando un repositorio desde una terminal por primera vez.**
+:warning: **El siguiente paso es necesario solo si se está creando un repositorio desde una terminal por primera vez.**
 
 2. (*Opcional*) Definir nombre de usuario y mail:
 
