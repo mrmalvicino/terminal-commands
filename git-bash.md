@@ -25,7 +25,7 @@ git config --global user.email mail@gmail.com
 
 ```
 git add .
-git commit -m "First commit"
+git commit -m "Initial commit"
 ```
 
 4. Subir el contenido de la carpeta a la rama "main" de un repositorio vacío llamado "new-repo":
