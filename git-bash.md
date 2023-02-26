@@ -125,3 +125,9 @@ git lfs ls-files
 git reset --hard HEAD~1
 git push -f origin main
 ```
+
+- Cambiar el mensaje del último commit antes de haber hecho push:
+
+```
+git commit --amend -m 'Nuevo mensaje'
+```
