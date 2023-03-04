@@ -131,3 +131,21 @@ git push -f origin main
 ```
 git commit --amend -m 'Nuevo mensaje'
 ```
+
+- Consultar lista de configuraciones, como por ejemplo username o email:
+
+```
+git config -l
+```
+
+- Ver la url configurada para el repositorio:
+
+```
+git remote -v
+```
+
+- Quitar la url configurada para el repositorio:
+
+```
+git remote remove origin
+```
